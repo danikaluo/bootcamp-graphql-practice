@@ -41,9 +41,10 @@ module.exports = gql`
     age: Int!
     email: String!
     numBooksPublished: Int!
-    address: Address!
-    books: [Book!]!
+    address: Address
+    books: [Book!]
     createdAt: String!
+    updatedAt: String!
   }
   type Publisher {
     id: ID!
